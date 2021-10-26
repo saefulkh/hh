@@ -1,5 +1,5 @@
-import time
-start_time = time.time()
+
+
 print('\n====belajar python====\n')
 print("hello")
 print("world")
@@ -8,7 +8,7 @@ print("hello world")
 a = 10
 # comment
 print(a)
-print(time.time()-start_time,"detik")
+
 #CARA COMPILE BUKA TERMINAL DAN TULIS -m py_compile nama.py
 
 a = 10
@@ -54,7 +54,7 @@ print("- bertipe :", type(data_complex))
 
 # TIPE DATA DARI BAHASA C
 
-from ctypes import  c_double 
+#from ctypes import  c_double 
 
 data_c_double = c_double(10.5)
 print("data :", data_c_double)
